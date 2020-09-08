@@ -1,6 +1,9 @@
 {
   "name": "explorer-web",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.x"
+  },
   "description": "Po.et Explorer",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --mode development",
